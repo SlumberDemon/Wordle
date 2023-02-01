@@ -1,6 +1,7 @@
 v: 0
+icon: ./public/discovery.png
 micros:
-  - name: space-wordle
+  - name: wordle-game
     src: .
     engine: svelte
     commands:

@@ -35,7 +35,11 @@
 <Board />
 
 <div class="center">
-    <button on:click={retry}>Retry</button>
+    {#if $GAME_WORD === $guess}
+        <button on:click={retry}>Play again</button>
+    {:else}
+        <button on:click={retry}>Retry</button>
+    {/if}
 </div>
 
 <style>
