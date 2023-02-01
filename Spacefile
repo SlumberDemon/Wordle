@@ -1,0 +1,8 @@
+v: 0
+micros:
+  - name: space-wordle
+    src: .
+    engine: svelte
+    commands:
+      - npm run build
+    serve: dist
