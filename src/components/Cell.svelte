@@ -38,4 +38,12 @@
     .incorrect {
         background-color: var(--dark);
     }
+
+    @media (max-width: 600px) {
+        .cell {
+            width: 55px;
+            height: 55px;
+            font-size: 35px;
+        }
+    }
 </style>

@@ -26,4 +26,13 @@
     .special {
         padding: 20px 35px;
     }
+
+    @media (max-width: 600px) {
+        .key {
+            padding: 8px 8px;
+        }
+        .special {
+            padding: 8px 8px;
+        }
+    }
 </style>

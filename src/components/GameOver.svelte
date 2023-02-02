@@ -68,4 +68,10 @@
         width: fit-content;
         text-align: center;
     }
+
+    @media (max-width: 600px) {
+        h3 {
+            font-size: 1.5em;
+        }
+    }
 </style>
