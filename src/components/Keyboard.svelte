@@ -118,12 +118,11 @@
         justify-content: center;
     }
 
-    /*
     @media (max-width: 600px) {
-        .row {
-            margin-left: auto;
-            margin-right: auto;
+        .keyboard {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     }
-    */
 </style>

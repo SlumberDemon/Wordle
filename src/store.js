@@ -17,7 +17,7 @@ export const gameInfo = writable({
 })
 
 export const gameOver = writable(false);
-export const GAME_WORD = writable("HELLO")
+export const GAME_WORD = writable("SPACE")
 export const guess = writable("")
 export const colors = writable(createGrid())
 export const board = writable(createGrid())
